@@ -20,7 +20,7 @@ public class HomePagetest extends Driverfactory{
 	public void check_header_on_hp()
 	{	
 		
-		Assert.assertEquals(hmp.doesheaderexist(prop.getProperty("title")), true);
+		Assert.assertEquals(hmp.doesheaderexist(prop.getProperty("header")), true);
 	}
 	
 	@And("user can see the contacts on homepage")
